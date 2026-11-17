@@ -36,10 +36,11 @@ Source and releases: [OthinusG/warpai](https://github.com/OthinusG/warpai).
 
 **Ordinary native local terminals do not require Companion installation or updates.
 Companion is only needed for SSH remote hosts and local WSL environments.
-Warpai 1.8.6.1 requires Companion 6.0.0 for those environments; versions across
-this boundary are not interchangeable. Overwrite-install the matching remote
-package under the same SSH account, or update the dedicated WSL component through
-Warpai settings. This cask installs the desktop application only.**
+Use Companion 6.1.0 with Warpai 1.9.0 for supervision recovery and follow-up
+handling. Overwrite-install the matching remote package under the same SSH
+account, or update the dedicated WSL component through Warpai settings. SSH
+protocol major 1 and Agent Bus major 2 remain unchanged. This cask installs the
+desktop application only.**
 
 ## Maintenance
 

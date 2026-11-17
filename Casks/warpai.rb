@@ -1,6 +1,6 @@
 cask "warpai" do
-  version "1.8.6.1"
-  sha256 "954f3c6b31c6faaca0395cf51816904151a4decc6d0f79c1e8f6924e94f37e63"
+  version "1.9.0"
+  sha256 "28cc631b10b0fdb31038541bc2568853102deed1a486645c9f617b399d53de92"
 
   url "https://github.com/OthinusG/warpai/releases/download/v#{version}/Warpai-#{version}-macos-arm64.dmg"
   name "Warpai"
