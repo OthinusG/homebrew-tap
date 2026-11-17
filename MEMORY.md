@@ -1,13 +1,20 @@
 # Project Memory
 
-Updated 2026-11-05.
+Updated 2026-11-17.
 
 - Public personal tap: https://github.com/OthinusG/homebrew-tap.
 - Install target: `brew install --cask OthinusG/tap/warpai`.
 - Uses upstream stable DMGs; Apple Silicon only, macOS 11 or newer.
 - Preserve application data on uninstall and leave quarantine enabled.
 - Cask versions and checksums require maintenance after stable releases.
-- Current cask: Warpai 1.8.6.1, matching the independently fetched public DMG
+- Current cask: Warpai 1.9.0, after stable publication. A separate public DMG
+  download matches the release SHA-256 and GitHub digest. Metadata parsing,
+  style (only the existing Homebrew/OSDependsOn exception), strict online audit,
+  Homebrew fetch/checksum and install dry-run passed using an isolated temporary
+  tap/trust configuration. The personal tap/developer setting was preserved and
+  temporary configuration removed; no application installed. Companion 6.1.0 is
+  required for the matching SSH/WSL features, with protocol majors unchanged.
+- Previous cask: Warpai 1.8.6.1, matching the independently fetched public DMG
   and release SHA-256. Metadata, online audit, fetch/checksum and install dry-run
   pass. Style excludes only Homebrew/OSDependsOn to retain the existing macOS11
   floor for older clients; ARM64 and quarantine guards remain intact. Checks used
